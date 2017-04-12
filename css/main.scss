@@ -1,0 +1,52 @@
+
+$bg-color: #7ad2a3;
+$text-bg-color: #fdfd83;
+$font-color: #FFF;
+$font-color-2: #555;
+$primary-color: #098B8C;
+
+body {
+  margin: 0px;
+  background-color: $bg-color;
+  font-family: 'Roboto', sans-serif;
+
+  color: $font-color;
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    .me {
+      padding: 20px;
+      .title {
+        font-family: 'Pacifico', sans-serif;
+        font-size: 62px;
+        margin-bottom: 0px
+      }
+      .img-circle {
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+        height: auto;
+        filter: grayscale(50%) brightness(120%);
+        border-radius: 50%;
+      }
+      .abstract {
+        color: $font-color;
+        margin-top: 0px;
+        .highlight {
+          background: $text-bg-color;
+          color: $font-color-2;
+        }
+      }
+      .social {
+        text-align: center;
+        font-size: 22px;
+        a:active, a:visited, a:hover {
+          color: $font-color;
+        }
+      }
+
+    }
+  }
+
+}

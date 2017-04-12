@@ -1,0 +1,19 @@
+{
+  "name": "jchenevarin.github.io",
+  "homepage": "https://github.com/jchenevarin/jchenevarin.github.io",
+  "authors": [
+    "jch"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
