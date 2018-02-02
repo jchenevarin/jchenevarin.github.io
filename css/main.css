@@ -26,8 +26,7 @@ body {
           background: #fdfd83;
           color: #555; }
       body .container .me .social {
-        text-align: center;
-        font-size: 22px; }
+        color: #FFF; }
         body .container .me .social a:active, body .container .me .social a:visited, body .container .me .social a:hover {
           color: #FFF; }
 

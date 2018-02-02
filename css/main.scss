@@ -39,8 +39,8 @@ body {
         }
       }
       .social {
-        text-align: center;
-        font-size: 22px;
+        
+        color: $font-color;
         a:active, a:visited, a:hover {
           color: $font-color;
         }
