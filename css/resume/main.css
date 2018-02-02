@@ -1,0 +1,279 @@
+/**
+ * Project : html
+ * Created on: 17/09/13
+ * By: jch
+ *
+ * Copyright of Witbe Inc. All rights reserved.
+ */
+/**
+ * Project : cogeco-uat
+ * Created on: 11/04/13
+ * By: jch
+ * 
+ * Copyright of Witbe Inc. All rights reserved.
+ */
+/**
+ * Project : cogeco-map
+ * Created on: 11/04/13
+ * By: jch
+ * 
+ * Copyright of Witbe Inc. All rights reserved.
+ */
+/**
+ * Project : cogeco-uat
+ * Created on: 11/04/13
+ * By: jch
+ * 
+ * Copyright of Witbe Inc. All rights reserved.
+ */
+@font-face {
+  font-family: 'WebSymbolsRegular';
+  src: url("fonts/WebSymbols-Regular-webfont.eot");
+  src: url("fonts/WebSymbols-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/WebSymbols-Regular-webfont.woff") format("woff"), url("fonts/WebSymbols-Regular-webfont.ttf") format("truetype"), url("fonts/WebSymbols-Regular-webfont.svg#WebSymbolsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ModernPictogramsNormal';
+  src: url("fonts/modernpics-webfont.eot");
+  src: url("fonts/modernpics-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/modernpics-webfont.woff") format("woff"), url("fonts/modernpics-webfont.ttf") format("truetype"), url("fonts/modernpics-webfont.svg#ModernPictogramsNormal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon-refresh:after {
+  content: "R";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-world:after {
+  content: "w";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-pen:after {
+  content: "e";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-zoom:after {
+  content: "s";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-window:after {
+  content: "W";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-place:after {
+  content: ",";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-device:after {
+  content: "O";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-timer:after {
+  content: "{";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-tools:after {
+  content: "(";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-grid:after {
+  content: "3";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-graph:after {
+  content: "7";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-table:after {
+  content: "4";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-warning:after {
+  content: "!";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-success:after {
+  content: "%";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-error:after {
+  content: "x";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-unknown:after {
+  content: "?";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-expanded:after {
+  content: "/";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-expandable:after {
+  content: ">";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-play:after {
+  content: "P";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-details:after {
+  content: "o";
+  color: #42484d;
+  font-family: 'ModernPictogramsNormal';
+  font-size: 30px; }
+
+.icon-top-arrow:after {
+  content: ":";
+  color: #42484d;
+  font-family: 'WebSymbolsRegular';
+  font-size: 30px; }
+
+.icon-bottom-arrow:after {
+  content: ";";
+  color: #42484d;
+  font-family: 'WebSymbolsRegular';
+  font-size: 30px; }
+
+.icon-link:after {
+  content: "K";
+  color: #42484d;
+  font-family: 'WebSymbolsRegular';
+  font-size: 30px; }
+
+.icon-allow-click {
+  cursor: pointer;
+  text-decoration: none; }
+  .icon-allow-click:hover:after {
+    color: #237fbf; }
+
+.icon-selected:after {
+  color: #237fbf; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #414141; }
+  body #main #side {
+    /* Rotate from top left corner (not default) */
+    -webkit-transform-origin: 20px 20px;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+    /* IE */
+    -ms-transform: rotate(90deg);
+    /* Opera */
+    -o-transform: rotate(90deg); }
+    body #main #side h3 {
+      font-size: 30px;
+      transform: rotateZ(180deg);
+      text-align: right;
+      /* Safari */
+      -webkit-transform: rotateZ(180deg);
+      /* Firefox */
+      -moz-transform: rotateZ(180deg);
+      /* IE */
+      -ms-transform: rotateZ(180deg);
+      /* Opera */
+      -o-transform: rotateZ(180deg); }
+      body #main #side h3 .position {
+        margin-left: 30px;
+        color: #81888f; }
+      body #main #side h3 .name {
+        font-size: 35px;
+        color: #237fbf; }
+  body #main #core {
+    margin: 0px 10px;
+    position: absolute;
+    top: 20px; }
+  body #main section {
+    margin: 10px 100px; }
+    body #main section .title {
+      color: #237fbf;
+      font-size: 1.2em;
+      margin: 5px 0px; }
+  body #main .timeline .timeline-element {
+    margin: 8px 0px; }
+    body #main .timeline .timeline-element .period {
+      height: 36px;
+      flex-grow: 0;
+      border-left: 3px solid #237fbf;
+      padding-left: 5px;
+      min-width: 75px; }
+      body #main .timeline .timeline-element .period .end {
+        color: #555; }
+      body #main .timeline .timeline-element .period .start {
+        color: #DDD; }
+  body #main .container {
+    display: flex;
+    flex-direction: row; }
+    body #main .container .item {
+      flex-grow: 1;
+      flex-basis: auto; }
+  body #main #education .timeline, body #main #experiences .timeline {
+    margin: 16px 0px; }
+    body #main #education .timeline .timeline-element .period, body #main #experiences .timeline .timeline-element .period {
+      padding-right: 20px; }
+    body #main #education .timeline .timeline-element p, body #main #experiences .timeline .timeline-element p {
+      margin: 0px; }
+
+@media screen and (max-width: 665px) {
+  body #main #side h3 {
+    font-size: 20px; }
+    body #main #side h3 .position {
+      margin-left: 30px;
+      color: #81888f; }
+    body #main #side h3 .name {
+      font-size: 25px;
+      color: #237fbf; }
+  body #main #skills .container {
+    flex-direction: column; } }
+@media screen and (max-width: 465px) {
+  body #main #side h3 {
+    font-size: 15px; }
+    body #main #side h3 .position {
+      margin-left: 30px;
+      color: #81888f; }
+    body #main #side h3 .name {
+      font-size: 20px;
+      color: #237fbf; } }
+
+/*# sourceMappingURL=main.css.map */
